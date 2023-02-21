@@ -1,3 +1,4 @@
+const routes = require('./routes');
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
@@ -8,6 +9,8 @@ app.use(express.json());
 
 
 app.use(express.static('public'));
+
+app.use(routes);
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social-network-api', {
     useNewUrlParser: true,
