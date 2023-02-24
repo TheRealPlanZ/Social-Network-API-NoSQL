@@ -11,7 +11,7 @@
 
 ## Video Walkthrough
 
-
+[![Video Walkthrough](https://img.youtube.com/vi/4Z7QZ9Z1Z0o/0.jpg)](./Assets/SocialMediaAPI.MP4)
 
 ## Install
 
